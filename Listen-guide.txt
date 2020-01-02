@@ -1,0 +1,20 @@
+https://www.youtube.com/watch?v=CrpBJgGqhS8
+and book guide Learning Spring Bot by Greg Turnquist
+admin port: 8161
+login: admin/admin
+admin console http://localhost:8161/admin/queues.jsp
+
+broker url(tcp only): spring.activemq.broker-url=tcp://localhost:61616
+
+Folder is here: C:\apache\ActiveMQ\apache-activemq-5.15.10
+cd /d C:\apache\ActiveMQ\apache-activemq-5.15.10\bin
+how to start active mq (http://www.dineshkrish.com/start-activemq-server-windows/)
+
+C:\apache\ActiveMQ\apache-activemq-5.15.10\bin>activemq.bat start
+
+output:
+ INFO | Apache ActiveMQ 5.15.10 (localhost, ID:sdass-PC-51576-1577923601713-0:1)
+ started
+ INFO | For help or more information please see: http://activemq.apache.org
+ INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
+ INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
