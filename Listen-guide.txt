@@ -18,3 +18,18 @@ output:
  INFO | For help or more information please see: http://activemq.apache.org
  INFO | ActiveMQ WebConsole available at http://0.0.0.0:8161/
  INFO | ActiveMQ Jolokia REST API available at http://0.0.0.0:8161/api/jolokia/
+ ------------ running springboot app rundown--------------
+ After starting amq server
+Start as spring boot app
+send rest request
+C:\Users\sdass>curl  http://localhost:8080/rest/publish/message-32
+sent to quue successfully
+Springboot log shows:
+222TQ: consume the message:arbitrary-message-1
+111consume the message:message-32
+---------------------
+222TQ: consume the message:arbitrary-message-32
+Click ActiveMQ admin console Queue tab
+See name of queue: mypractice.queue. and other statistics
+However, UI is not as rich as rabbit mq. I have to refresh to see request
+ 
